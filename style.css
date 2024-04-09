@@ -1,0 +1,37 @@
+.container {
+    text-align: center;
+    margin-top: 110px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    border: 1px solid black;
+    width: 320px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: aqua;
+  }
+  
+  .cell:hover {
+    background-color: lightgray;
+  }
+  .one1{
+    background-color: aqua;
+    border-radius: 20px;
+    color: black;
+  }
+
+  
+  
